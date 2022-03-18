@@ -1,4 +1,4 @@
- <template>
+<template>
   <el-container class="layout">
     <el-aside width="auto" class="asside">
       <MenuBar></MenuBar>
@@ -11,14 +11,14 @@
         <Tabs></Tabs>
         <router-view></router-view>
       </el-main>
-    </el-container> 
+    </el-container>
   </el-container>
 </template>
 
 <script lang="ts" setup>
-import Header from './header/Header.vue';
-import MenuBar from './menu/MenuBar.vue';
-import Tabs from './tabs/Tabs.vue';
+import Header from './header/Header.vue'
+import MenuBar from './menu/MenuBar.vue'
+import Tabs from './tabs/Tabs.vue'
 </script>
 
 <style lang="scss" scoped>
@@ -29,7 +29,7 @@ import Tabs from './tabs/Tabs.vue';
   }
   .header {
     height: 50px;
-    border-bottom:1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
     display: flex;
     align-items: center;
   }
