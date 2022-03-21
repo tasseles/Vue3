@@ -1,11 +1,7 @@
-<template>
-商品分类
-</template>
+<template>商品分类</template>
 
-<script lang='ts' setup>
-import {ref,reactive} from 'vue'
+<script lang="ts" setup>
+import { ref, reactive } from 'vue'
 </script>
 
-<style lang='scss' scoped>
-
-</style>
+<style lang="scss" scoped></style>
